@@ -35,4 +35,4 @@ def build_dataset(words, block_size, device, train_size=0.8):
     Xtr, Xval, Xte = X[:n1], X[n1:n2], X[n2:]
     Ytr, Yval, Yte = Y[:n1], Y[n1:n2], Y[n2:]
     print(X.shape, Y.shape)
-    return Xtr, Xval, Xte, Ytr, Yval, Yte
+    return Xtr, Xval, Xte, Ytr, Yval, Yte, vocab_size, stoi, itos
