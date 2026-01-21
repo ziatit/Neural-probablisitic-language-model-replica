@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Deep_learning_papers/Neural_probabilistic_laguage_model/mlruns/400479900973834128/1b6169e696fa45dfa2308aab7e38cc9e/artifacts
+end_time: 1769012589374
+entry_point_name: ''
+experiment_id: '400479900973834128'
+lifecycle_stage: active
+run_id: 1b6169e696fa45dfa2308aab7e38cc9e
+run_name: enchanting-perch-318
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769012585635
+status: 4
+tags: []
+user_id: root

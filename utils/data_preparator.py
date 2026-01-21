@@ -1,7 +1,10 @@
 import torch
 from collections import Counter
 
-def preapare_tokens(words):
+import torch
+from collections import Counter
+
+def prepare_tokens(words):
   tokens = [w.lower() for w in words]
   freq = Counter(tokens)
   tokens = [w if freq[w] > 3 else '<unk>' for w in tokens]
@@ -9,7 +12,7 @@ def preapare_tokens(words):
   return tokens
 
 def build_dataset(words, block_size, device, train_size=0.8):
-    tokens = preapare_tokens(words)
+    tokens = prepare_tokens(words)
 
     unique_words = sorted(list(set(tokens)))
     unique_words = ['<BLOCK>'] + unique_words
@@ -35,4 +38,4 @@ def build_dataset(words, block_size, device, train_size=0.8):
     Xtr, Xval, Xte = X[:n1], X[n1:n2], X[n2:]
     Ytr, Yval, Yte = Y[:n1], Y[n1:n2], Y[n2:]
     print(X.shape, Y.shape)
-    return Xtr, Xval, Xte, Ytr, Yval, Yte
+    return Xtr, Xval, Xte, Ytr, Yval, Yte, vocab_size, stoi, itos

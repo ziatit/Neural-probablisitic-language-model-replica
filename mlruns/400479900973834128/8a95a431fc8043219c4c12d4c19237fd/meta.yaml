@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Deep_learning_papers/Neural_probabilistic_laguage_model/mlruns/400479900973834128/8a95a431fc8043219c4c12d4c19237fd/artifacts
+end_time: 1769012672596
+entry_point_name: ''
+experiment_id: '400479900973834128'
+lifecycle_stage: active
+run_id: 8a95a431fc8043219c4c12d4c19237fd
+run_name: agreeable-kit-957
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769012627687
+status: 3
+tags: []
+user_id: root
