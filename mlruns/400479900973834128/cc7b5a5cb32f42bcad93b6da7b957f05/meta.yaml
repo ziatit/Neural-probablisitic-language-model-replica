@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Deep_learning_papers/Neural_probabilistic_laguage_model/mlruns/400479900973834128/cc7b5a5cb32f42bcad93b6da7b957f05/artifacts
+end_time: 1769011952546
+entry_point_name: ''
+experiment_id: '400479900973834128'
+lifecycle_stage: active
+run_id: cc7b5a5cb32f42bcad93b6da7b957f05
+run_name: kindly-bear-147
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769011952228
+status: 4
+tags: []
+user_id: root
